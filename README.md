@@ -1,10 +1,10 @@
-# rotater
-Implements a function to rotate ImageData object obtained from HTML Canvas
+# Rotater
+Implements a function to rotate ImageData object obtained from HTML Canvas using BiLinear Interpolation.
 
 ## Installation
 
-Clone the repository. Run command npm install in the root folder
-To use the vue test interface browse to the folder rotate_vue and run npm install in that folder as well.
+Clone the repository. Run command *npm install* in the root folder
+To use the vue test interface browse to the folder rotate_vue and run *npm install* in that folder as well.
 
 ## Function prototype
 
@@ -30,9 +30,13 @@ const outputFilename = 'test.png';
 const inputFile = 'testscreen.png';
 const angle_degree = 45;
 ```
+Run the command **node app**. This will generate a rotated png file in the same folder.
+
 ## Testing the function in a browser
 
 Browse to the folder rotate_vue. Open a command window and run command npm run serve
 The browser based test will then be available at http://localhost:8080/. Open and past this link in the 
-browser to view the vue example.
+browser to view the vue example. 
+
+Click on Rotate button to rotate the image by 5 degrees. 
 
