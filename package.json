@@ -1,0 +1,16 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "Main component for calling and testing Rotator class",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Andre Lochner",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "moment": "^2.26.0",
+    "pixel-util": "0.0.2"
+  }
+}
